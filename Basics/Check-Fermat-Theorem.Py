@@ -1,6 +1,9 @@
 '''Fermat’s Last Theorem says that there are no positive integers a, b, and c such that
 an + bn = cn
-for any values of n greater than 2.'''
+for any values of n greater than 2.
+This method does not prove the theorem, but rather allows the user to input integer values
+to see whether the valeues are contstrained to Fermat's Theorem
+'''
 
 def check_fermat(a,b,c,n):
     l=a**n + b**n
