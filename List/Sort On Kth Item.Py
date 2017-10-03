@@ -1,9 +1,9 @@
 n,m=map(int,input().split())
 t=[]
-li=[]
+list1=[]
 for i in range(n):
-    li=list(map(int,input().split()))
-    t.append(li)
+    list1=list(map(int,input().split()))
+    t.append(list1)
 k=int(input())
 t2=sorted(t, key = lambda x: int(x[k]))
 for i in range(n):
