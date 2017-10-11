@@ -23,11 +23,9 @@ def check(n):
     return(ispal(n,2,5) and ispal(n+1,1,5) and ispal(n+2,1,4) and ispal(n+3,0,5))
 
 def check_all():
-    i=100000
-    while i<1000000:
+    for i in range(100000, 1000000):
         if check(i):
             print(i)
-        i=i+1
 
 print('Possible Solutions are:')
 check_all()
