@@ -13,10 +13,12 @@ print(nested_sum(t))
 
 def cumsum(li):
     li2=[]
-    s=0
-    for i in range(len(li)):
-        s+=li[i]
-        li2.append(s)
+    for i in li:
+        li2.append(sum(li[:i]))
+    return li2
+
+t=[1,2,3,4,5,6]
+print(cumsum(t))
 
     return li2
 
