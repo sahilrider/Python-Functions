@@ -6,10 +6,10 @@ def fibonacci(n):
     b=1
     print(a)
     while b<n :
-        print(b)
         temp=b
         b=b+a
         a=temp
+        print(b)
         
 
-fibonacci(100)
+fibonacci(int(input("enter number_:")))
