@@ -1,11 +1,5 @@
 def is_abecedarian(word):
-    prev=word[0]
-    for nxt in word:
-        if nxt < prev:
-            return False
-        else:
-            prev=nxt
-    return True
+    return all(nxt <= prev for nxt, prev in zip(word[:-1], word[1:]))
 
 fin=open('words.txt')
 for line in fin:

@@ -1,8 +1,6 @@
 def uses_only(word,string):
-    for letter in word:
-        if letter not in string:
-            return False
-    return True
+    return all(letter not in string for letter in word)
+
 
 fin=open('words.txt')
 string=str(input('Enter a string:'))

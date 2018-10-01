@@ -1,8 +1,5 @@
 def uses_all(word,string):
-    for letter in string:
-        if letter not in word:
-            return False
-    return True
+    return all(letter in word for letter in string)
 
 fin=open('words.txt')
 string=str(input('Enter a string:'))

@@ -1,8 +1,5 @@
 def avoid(word,string):
-    for i in string:
-        if i in word:
-            return False
-    return True
+    return all(letter not in word for letter in string)
 
 
 
