@@ -68,6 +68,8 @@ It will also help other begineers as codes complexity will increase from basics 
 * List
    * [Operations](https://github.com/sahilrider/Python-Codes/blob/master/List/Operations.Py)
    *  [Sort on Kth Item](https://github.com/sahilrider/Python-Codes/blob/master/List/Sort%20On%20Kth%20Item.Py)
+* Location
+   * [location on map](https://github.com/sahilrider/Python-Codes/blob/master/Python-Codes/Location on map/Locate_city.py)
 * NPTEL
    * [Week 2](https://github.com/sahilrider/Python-Codes/blob/master/NPTEL/Week2.Py)
    * [Week 3](https://github.com/sahilrider/Python-Codes/blob/master/NPTEL/Week3.Py)
