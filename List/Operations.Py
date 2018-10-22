@@ -2,8 +2,8 @@
 
 def nested_sum(t):
     s=0
-    for i in range(len(t)):
-        s+=sum(t[i])
+    for i in t:
+        s+=sum(i)
     return s
 
 t=[[1,2],[3],[4,5,6]]
