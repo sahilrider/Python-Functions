@@ -4,13 +4,14 @@
 
 def descending(li):
     l=len(li)
-    if l==0 or l==1:
+    if l==0 or l==1 or len(li)==0:
         return True
     else:
         for i in range(1,l):
-            if li[i]>li[i-1]:
-                return False
-        return True
+            if li[i]==li[i+1]:
+                return True
+            else:   
+               return False
 '''Question 2
    Define a Python function "alternating(l)" that returns True
    if
