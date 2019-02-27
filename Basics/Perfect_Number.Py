@@ -8,5 +8,11 @@ def perfect(n):
             break
     return ctr
 
-print(perfect(8589869058))
+
+int n= input("enter a number that you want to check -")
+
+if(perfect(n)=='False'):
+    print("Sorry, the number that you have entered is not a perfect number")
+else:
+    print(n," is a perfect number")
 
