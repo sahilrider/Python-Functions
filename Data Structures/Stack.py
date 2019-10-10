@@ -1,9 +1,9 @@
 class Stack(object):
 	"""docstring for Stack"""
-	def __init__(self):
+	def __init__(self,maxElem=50):
 		super(Stack, self).__init__()
 		self.top = -1
-		self.maxElem = 50
+		self.maxElem = maxElem
 		self.data = [None for i in range(50)]
 
 	def push(self, value):
