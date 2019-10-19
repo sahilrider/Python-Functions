@@ -94,6 +94,8 @@ It will also help other begineers as codes complexity will increase from basics 
    * [Pattern Branch](https://github.com/sahilrider/Python-Codes/blob/master/Turtle/Pattern-Branch.Py)
    * [Polygon](https://github.com/sahilrider/Python-Codes/blob/master/Turtle/Polygon.Py)
    * [Snowflake (Koch curve)](https://github.com/sahilrider/Python-Codes/blob/master/Turtle/Snowflake-koch-curve.Py) 
+* Scikit-Learn ML
+   * [K nearest neighbors (KNN) to predict the stock market based on S&P500 dataset](https://github.com/sahilrider/Python-Codes/blob/master/KNN/knn.Py)
 
 <b>''Program testing can be used to show the presence of bugs, but never to show
 their absence!''
