@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ 
-Using simple linear regression to predict the stock market 
+This an example using simple linear regression to predict the stock market 
 based on S&P500 dataset.
 
 Author:
