@@ -1,0 +1,80 @@
+''' The parameter weekday is True if it is a weekday, and the parameter vacation
+ is True if we are on vacation.
+ We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
+
+
+sleep_in(False, False) → True
+sleep_in(True, False) → False
+sleep_in(False, True) → True '''
+
+# solution
+def sleep_in(weekday, vacation):
+  if not weekday or vacation:
+    return True
+  else:
+    return False
+  # This can be shortened to: return(not weekday or vacation)
+  
+  
+
+
+''' 
+Given an array of ints, return True if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+
+
+array123([1, 1, 2, 3, 1]) → True
+array123([1, 1, 2, 4, 1]) → False
+array123([1, 1, 2, 1, 2, 3]) → True '''
+
+# Solution
+
+def array123(nums):
+  # Note: iterate with length-2, so can use i+1 and i+2 in the loop
+  for i in range(len(nums)-2):
+    if nums[i]==1 and nums[i+1]==2 and nums[i+2]==3:
+      return True
+  return False
+  
+  
+  
+  ''' 
+The squirrels in Palo Alto spend most of the day playing. In particular, they play if the temperature is between 60 and 90 (inclusive). Unless it is summer, then the upper limit is 100 instead of 90. Given an int temperature and a boolean is_summer, return True if the squirrels play and False otherwise.
+
+
+squirrel_play(70, False) → True
+squirrel_play(95, False) → False
+squirrel_play(95, True) → True '''
+
+#solution
+def squirrel_play(temp, is_summer):
+  if (60 <= temp <= 90 and is_summer == False):
+    return True
+  elif (60 <= temp <= 100 and is_summer == True):
+    return True
+  else:
+    return False
+    
+    
+    
+   ''' 
+
+Given an array of ints, return True if 6 appears as either the first or last element in the array. The array will be length 1 or more.
+
+
+first_last6([1, 2, 6]) → True
+first_last6([6, 1, 2, 3]) → True
+first_last6([13, 6, 1, 2, 3]) → False'''
+
+# Solution
+def first_last6(nums):
+  if (nums[0] == 6 or nums[-1] == 6):
+    return True
+  else:
+    return False
+    
+ 
+    
+    
+  
+  
+  
